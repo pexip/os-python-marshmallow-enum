@@ -1,0 +1,14 @@
+As downstream, we don't care about flake8 in the testsuite and it can cause some
+problems when flake8 is updated.
+Index: python-marshmallow-enum/tox.ini
+===================================================================
+--- python-marshmallow-enum.orig/tox.ini
++++ python-marshmallow-enum/tox.ini
+@@ -26,6 +26,6 @@ commands =
+ 
+ [pytest]
+ norecursedirs = .tox .git .cache *.egg
+-addopts = -vvl --flake8 --capture fd
++addopts = -vvl --capture fd
+ flake8-ignore = E123,E133,E731
+ flake8-max-line-length = 100

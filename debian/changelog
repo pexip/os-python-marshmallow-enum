@@ -1,0 +1,11 @@
+python-marshmallow-enum (1.5.1-2) unstable; urgency=medium
+
+  * d/tests: fix unittests autopkgtest for multiple Python versions.
+
+ -- Louis-Philippe Véronneau <pollo@debian.org>  Mon, 19 Oct 2020 01:38:47 -0400
+
+python-marshmallow-enum (1.5.1-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #971339)
+
+ -- Louis-Philippe Véronneau <pollo@debian.org>  Tue, 29 Sep 2020 14:35:27 -0400

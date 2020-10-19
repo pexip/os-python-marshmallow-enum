@@ -1,0 +1,24 @@
+Source: python-marshmallow-enum
+Section: python
+Priority: optional
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Louis-Philippe Véronneau <pollo@debian.org>
+Rules-Requires-Root: no
+Build-Depends: debhelper-compat (= 13),
+               dh-python,
+               python3-all,
+               python3-setuptools,
+               python3-marshmallow <!nocheck>,
+               python3-pytest <!nocheck>,
+Standards-Version: 4.5.0.0
+Vcs-Git: https://salsa.debian.org/python-team/packages/python-marshmallow-enum.git
+Vcs-Browser: https://salsa.debian.org/python-team/packages/python-marshmallow-enum
+Homepage: https://github.com/justanr/marshmallow_enum
+
+Package: python3-marshmallow-enum
+Architecture: all
+Depends: ${python3:Depends},
+         ${misc:Depends},
+Description: marshmallow extension for enum fields
+ The marshmallow-enum extension adds Enum support in the Python marshmallow
+ library for converting complex datatypes module.
