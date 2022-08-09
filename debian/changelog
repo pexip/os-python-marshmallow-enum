@@ -1,4 +1,4 @@
-python-marshmallow-enum (1.5.1-2pexip1) pexip; urgency=medium
+python-marshmallow-enum (1.5.1-2pexip1) pexip-bullseye; urgency=medium
 
   * Prepare Pexip packaging
 
