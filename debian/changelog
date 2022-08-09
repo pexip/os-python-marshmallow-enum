@@ -1,3 +1,9 @@
+python-marshmallow-enum (1.5.1-2pexip1) pexip; urgency=medium
+
+  * Prepare Pexip packaging
+
+ -- Mark Hymers <mark.hymers@pexip.com>  Tue, 09 Aug 2022 10:17:45 +0100
+
 python-marshmallow-enum (1.5.1-2) unstable; urgency=medium
 
   * d/tests: fix unittests autopkgtest for multiple Python versions.
